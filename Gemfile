@@ -34,10 +34,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-group :test do
-
-  gem 'factory_girl_rails'
-end
+#group :test do
+#
+#  gem 'factory_girl_rails'
+#end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
@@ -48,5 +48,6 @@ end
 # gem 'capistrano', group: :development
 
 # Use debugger
-gem 'debugger', group: [:development, :test]
+gem 'debugger',    group: [:development, :test]
+gem 'factory_girl_rails',    group: [:development, :test]
 gem 'rspec-rails', group: [:development, :test]

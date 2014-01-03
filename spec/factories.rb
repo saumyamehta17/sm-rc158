@@ -6,5 +6,5 @@ FactoryGirl.define do
     sequence(:name) {|n| "product#{n}"}
     sequence(:price) {|n| "#{n}"}
   end
-
 end
+

@@ -27,3 +27,12 @@ factory :article do
   product
 end
 ```
+More example
+```
+see seed.rb
+```
+
+Run Test
+```
+rake spec
+```
